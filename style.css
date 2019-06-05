@@ -1,0 +1,505 @@
+/*
+ Theme Name:   devdmbootstrap4 Child
+ Theme URI:    http://demo.themeum.com/wordpress/devdmbootstrap4
+ Description:  devdmbootstrap4 Child Theme
+ Author:       Themeum
+ Author URI:   http://themeum.com/
+ Template:     devdmbootstrap4
+ Version:      1.0
+ Tags: right-sidebar, two-columns
+ Text Domain:  devdmbootstrap4-child
+*/
+
+.header-top{
+    padding: 2px 0;
+    background: #1B2B35;
+    border-bottom: 1px solid #222;
+}
+.header-top .social-share ul{
+    padding: 0;
+}
+.header-top .social-share ul li{
+    margin-right: 0;
+}
+.header-top .social-share ul li a{
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 2px;
+    line-height: 25px;
+    background: #404040;
+}
+.header-top .social-share ul li:hover, .header-top .social-share ul li{
+    background: none;
+}
+.header-top-contact{
+    color: #fff;
+    font-size: 14px;
+}
+.social-share ul {
+    margin: 0;
+    padding: 10px 0px 30px;
+}
+.social-share ul li{
+    display: inline-block;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 6px;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+    margin-bottom: 5px;
+}
+.social-share ul li a{
+    color: #6D7784;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.social-share ul li:hover a{
+    color: #ffffff;
+}
+section.pricing {
+    background: #ffff;
+
+}
+
+.card, .dmbs-content-wrapper .dmbs-main .dmbs-comments .comment #respond {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #E2F1F4;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+pb-5, .py-5 {
+
+    margin-bottom: 3rem;
+}
+.pt-5, .py-5 {
+    padding-top: 1rem !important;
+}
+
+
+
+.navbar {
+
+    margin-top: 40px;
+}
+
+h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
+.navbar-brand  span{
+    color: #fed136;
+    font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-brand {
+    color: #fff;
+    font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+    font-weight:700;
+    letter-spacing:0.1em;
+}
+.navbar-brand img{
+    width: 150%;
+}
+
+
+
+.navbar-nav .nav-item .nav-link{
+    padding: 1.1em 1em!important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Gothic A1', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:#5290fe;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+    border-top:3px solid #5290fe;
+}
+.dropdown-item:hover{background-color:#5290fe;color:#fff;}
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}
+
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+}
+.banner{
+    background-image:url('https://localhost/techpromux/wp-content/uploads/2019/05/113-Converted2-22.jpg');
+    text-align: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 160px;
+}
+.banner-text{
+
+    padding:150px 0 150px 0;
+}
+.banner-heading{
+    font-family: 'Agency FB', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 60px;
+    margin-bottom: 30px;
+    color:#ffff;
+    width: 40%;
+
+}
+.banner-sub-heading{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color:#3a3939;
+}
+
+.btn-banner{
+    padding:5px 20px;
+    border-radius:10px;
+    font-weight:700;
+    line-height:1.5;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+}
+.text-intro{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    padding-top:30px;
+}
+
+
+/* mobile view */
+.navbar-toggler-icon {
+
+    background: #7e8993;
+
+}
+.navbar-dark .navbar-toggler {
+
+    border-color: black;
+}
+.navbar-toggler {
+
+    background-color: #7e8993;
+
+}
+@media (max-width: 1200px){
+    .tabs ul {
+
+        flex-direction: column;
+    }
+}
+@media (max-width:500px)
+{
+    .navbar-nav{
+        background-color:#7e8993;
+        border-top:3px solid #7e8993;
+        color:#fff;
+        z-index:1;
+        margin-top:5px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 0.7em 1em!important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    .banner-text{
+        padding:150px 0 150px 0;
+    }
+    .banner-heading{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .banner-sub-heading{
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+@media (max-width:768px){
+    .banner-text{
+        padding:150px 0 150px 0;
+    }
+    .banner-sub-heading{
+        font-size: 23px;
+        font-weight: 200;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+}
+
+hr.style5 {
+    background-color: #fff;
+    border-top: 2px dashed #8c8b8b;
+}
+.bg-dark {
+    background-color: #343a40!important;
+}
+.my-bg-primary{
+    background-color:#E0A800!important;
+}
+.my-text-primary{
+    color:#E0A800!important;
+}
+.navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em!important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: 'Gothic A1', sans-serif;
+}
+#about{
+    background: #5290fe;
+
+}
+/*footer*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:-18px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
+/* btn primary-------------*/
+
+
+.wrapper-breadcrumb{
+    margin-top: 160px;
+}
+/*------------------------------------------------------------------------------------------------------------- loader*/
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.lds-ellipsis div {
+    position: absolute;
+    top: 27px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #007BFF;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+    left: 6px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+    left: 6px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+    left: 26px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+    left: 45px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(19px, 0);
+    }
+}
+
+/*-------------------------------------------------------------------*/
+
+container-tabs {
+    position: relative;
+}
+
+
+#exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
